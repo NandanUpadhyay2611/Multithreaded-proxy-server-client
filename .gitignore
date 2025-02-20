@@ -1,0 +1,53 @@
+# Ignore object files, compiled binaries, and executables
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignore debug and build files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.cache
+*.pdb
+*.ilk
+*.idb
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore VS Code workspace and settings files
+.vscode/
+.vscodea/
+
+# Ignore C/C++ source dependencies and auto-generated files
+
+CMakeLists.txt.user
+CMakeCache.txt
+*.cmake
+
+# Ignore package management files
+node_modules/
+__pycache__/
+venv/
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore IDE-specific files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.code-workspace
+
+# Ignore personal environment files
+.env
+.DS_Store
+Thumbs.db
